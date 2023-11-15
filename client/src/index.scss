@@ -1,0 +1,21 @@
+.navbar-nav {
+  a {
+    color: #555;
+    text-decoration: none;
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+    &.active, &:hover {
+      text-decoration: underline;
+    }
+  }
+  span {
+    margin-right: 5px;
+  }
+  p {
+    margin-right: 15px;
+  }
+}
+body{
+  background-color: #2F4ced;
+}
